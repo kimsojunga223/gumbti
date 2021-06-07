@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="question30" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.FacilitiesQuestionController">
+   <children>
+      <Label layoutX="174.0" layoutY="65.0" text="손톱색을 바꿔볼까?" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="nailAnswer" layoutX="125.0" layoutY="150.0" mnemonicParsing="false" onMouseClicked="#nailAnswerBtn" prefHeight="50.0" prefWidth="338.0" style="-fx-background-color: #7509cd;" text="오 어디 샵에서 해?" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="selfAnswer" layoutX="125.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#selfAnswerBtn" prefHeight="50.0" prefWidth="338.0" style="-fx-background-color: #7509cd;" text="너무 비싸.. 셀프로 할래" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="nextPage" layoutX="248.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#NextBtn" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: #7509cd;" text="다음페이지" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+   </children>
+</AnchorPane>

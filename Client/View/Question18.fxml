@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="question18" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.CultureQuestionController">
+    <children>
+        <Label layoutX="144.0" layoutY="37.0" text="애인과 하고 싶은 데이트" textAlignment="CENTER">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+        <Label layoutX="272.0" layoutY="71.0" text="3순위" textAlignment="CENTER">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="movieAnswer" layoutX="17.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#movieAnswerBtn" prefHeight="46.0" prefWidth="276.0" style="-fx-background-color: #7509cd;" text="두근두근 영화데이트" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="bookStoreAnswer" layoutX="310.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#bookStoreAnswerBtn" prefHeight="46.0" prefWidth="276.0" style="-fx-background-color: #7509cd;" text="속닥속닥 서점데이트" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="shoppingAnswer" layoutX="17.0" layoutY="176.0" mnemonicParsing="false" onMouseClicked="#shoppingAnswerBtn" prefHeight="46.0" prefWidth="276.0" style="-fx-background-color: #7509cd;" text="북적북적 쇼핑데이트" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="singingroomAnswer" layoutX="310.0" layoutY="176.0" mnemonicParsing="false" onMouseClicked="#singingroomAnswerBtn" prefHeight="46.0" prefWidth="276.0" style="-fx-background-color: #7509cd;" text="감미로운 노래방데이트" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="pcAnswer" layoutX="17.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#pcAnswerBtn" prefHeight="46.0" prefWidth="276.0" style="-fx-background-color: #7509cd;" text="스릴만점 피씨방데이트" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="billiardsAnswer" layoutX="310.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#billiardsAnswerBtn" prefHeight="46.0" prefWidth="276.0" style="-fx-background-color: #7509cd;" text="익사이팅 당구데이트" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="barAnswer" layoutX="17.0" layoutY="303.0" mnemonicParsing="false" onMouseClicked="#barAnswerBtn" prefHeight="46.0" prefWidth="276.0" style="-fx-background-color: #7509cd;" text="처음처럼 술집데이트" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="nextPage" layoutX="241.0" layoutY="369.0" mnemonicParsing="false" onMouseClicked="#NextBtn" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: #7509cd;" text="다음페이지" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+    </children>
+</AnchorPane>

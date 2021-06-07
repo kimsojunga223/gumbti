@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="question19" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.EducationQuestionController">
+    <children>
+        <Label layoutX="179.0" layoutY="61.0" text="교재를 구해야 한다">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+        <Button fx:id="libraryAnswer" layoutX="35.0" layoutY="166.0" mnemonicParsing="false" onMouseClicked="#libraryAnswerBtn" prefHeight="49.0" prefWidth="153.0" style="-fx-background-color: #7509cd;" text="도서관" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="bookstoreAnswer" layoutX="224.0" layoutY="166.0" mnemonicParsing="false" onMouseClicked="#bookstoreAnswerBtn" prefHeight="49.0" prefWidth="153.0" style="-fx-background-color: #7509cd;" text="서점" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="nothingAnswer" layoutX="413.0" layoutY="166.0" mnemonicParsing="false" onMouseClicked="#nothingAnswerBtn" prefHeight="49.0" prefWidth="153.0" style="-fx-background-color: #7509cd;" text="구하지 않는다" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+        <Button fx:id="nextPage" layoutX="248.0" layoutY="332.0" mnemonicParsing="false" onMouseClicked="#NextBtn" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: #7509cd;" text="다음페이지" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+    </children>
+</AnchorPane>

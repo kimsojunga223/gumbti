@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.DivisionController">
+   <children>
+      <Label layoutX="177.0" layoutY="14.0" prefHeight="88.0" prefWidth="267.0" text="관심사 3개를 선택해주세요">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="traffic" layoutX="45.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#TrafficBtn" prefHeight="65.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="교통" textFill="WHITE" />
+      <Button fx:id="health" layoutX="177.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#HealthBtn" prefHeight="65.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="건강" textFill="WHITE" />
+      <Button fx:id="food" layoutX="305.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#FoodBtn" prefHeight="65.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="음식" textFill="WHITE" />
+      <Button fx:id="culture" layoutX="436.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#CultureBtn" prefHeight="65.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="문화/여가" textFill="WHITE" />
+      <Button fx:id="education" layoutX="109.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#EducationBtn" prefHeight="65.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="교육" textFill="WHITE" />
+      <Button fx:id="animal" layoutX="253.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#AnimalBtn" prefHeight="65.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="동물" textFill="WHITE" />
+      <Button fx:id="facilities" layoutX="398.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#FacilitiesBtn" prefHeight="65.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="생활시설 " textFill="WHITE" />
+      <Button fx:id="next" layoutX="253.0" layoutY="337.0" mnemonicParsing="false" onMouseClicked="#NextBtn" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="다음 페이지" textFill="WHITE" />
+   </children>
+</AnchorPane>

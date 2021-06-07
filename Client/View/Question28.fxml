@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="question28" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.AnimalQuestionController">
+   <children>
+      <Label layoutX="88.0" layoutY="64.0" text="친구네 집 강아지가 새끼를 낳았다" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="takeAnswer" layoutX="100.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#takeAnswerBtn" prefHeight="53.0" prefWidth="152.0" style="-fx-background-color: #7509cd;" text="분양 가능해?" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="notAnswer" layoutX="349.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#notAnswerBtn" prefHeight="53.0" prefWidth="152.0" style="-fx-background-color: #7509cd;" text="랜선이모 한다" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="nextPage" layoutX="248.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#NextBtn" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: #7509cd;" text="다음페이지" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+   </children>
+</AnchorPane>

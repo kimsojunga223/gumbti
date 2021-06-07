@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.HealthQuestionController">
+   <children>
+      <Label layoutX="126.0" layoutY="66.0" text="건강을 챙겨야할 나이, 나는?">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="exercise" layoutX="59.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#exerciseBtn" prefHeight="50.0" prefWidth="135.0" style="-fx-background-color: #7509cd;" text="운동" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="nextPage" layoutX="258.0" layoutY="332.0" mnemonicParsing="false" onMouseClicked="#NextBtn" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: #7509cd;" text="다음페이지" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="health" layoutX="243.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#healthBtn" prefHeight="50.0" prefWidth="135.0" style="-fx-background-color: #7509cd;" text="건강검진" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="nutrients" layoutX="427.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#nutrientsBtn" prefHeight="50.0" prefWidth="135.0" style="-fx-background-color: #7509cd;" text="영양제" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+   </children>
+</AnchorPane>

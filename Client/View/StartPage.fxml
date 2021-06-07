@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="first" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.FirstScreenController">
+   <children>
+      <Label layoutX="205.0" layoutY="56.0" prefHeight="141.0" prefWidth="138.0" text="GUM" textFill="#7509cd">
+         <font>
+            <Font size="60.0" />
+         </font></Label>
+      <Label layoutX="343.0" layoutY="108.0" prefHeight="43.0" prefWidth="44.0" text="BT" textFill="#7509cd">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="388.0" layoutY="92.0" text="I" textFill="#7509cd">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="258.0" layoutY="178.0" text="이 테스트를 통해" />
+      <Label layoutX="196.0" layoutY="200.0" text="개인별 주건환경 선호도를 파악하여" />
+      <Label layoutX="201.0" layoutY="219.0" text="주거지로 적합한 구미의 읍면동을 " />
+      <Label layoutX="233.0" layoutY="238.0" text="추천하는 시스템입니다" />
+      <Button fx:id="startBtn" layoutX="258.0" layoutY="298.0" mnemonicParsing="false" onMouseClicked="#StartBtn" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #7509cd;" text="테스트 시작" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.FoodQuestionController">
+   <children>
+      <Label layoutX="103.0" layoutY="71.0" text="친구가 놀러온다. 음식어떡하지?">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="eat" layoutX="77.0" layoutY="190.0" mnemonicParsing="false" onMouseClicked="#eatBtn" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #7509cd;" text="시켜먹는다" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="nextPage" layoutX="258.0" layoutY="332.0" mnemonicParsing="false" onMouseClicked="#NextBtn" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: #7509cd;" text="다음페이지" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="make" layoutX="419.0" layoutY="190.0" mnemonicParsing="false" onMouseClicked="#makeBtn" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #7509cd;" text="만들어준다" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="out" layoutX="249.0" layoutY="190.0" mnemonicParsing="false" onMouseClicked="#outBtn" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #7509cd;" text="나가서 먹는다" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+   </children>
+</AnchorPane>

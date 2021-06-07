@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controller.HealthQuestionController">
+   <children>
+      <Label layoutX="150.0" layoutY="64.0" text="스트레스 받을 때 나는?">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="mountain" layoutX="132.0" layoutY="141.0" mnemonicParsing="false" onMouseClicked="#mountainBtn" prefHeight="50.0" prefWidth="135.0" style="-fx-background-color: #7509cd;" text="산" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="trip" layoutX="316.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#tripBtn" prefHeight="50.0" prefWidth="135.0" style="-fx-background-color: #7509cd;" text="여행" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="nextPage" layoutX="258.0" layoutY="332.0" mnemonicParsing="false" onMouseClicked="#NextBtn" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: #7509cd;" text="다음페이지" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="park" layoutX="316.0" layoutY="141.0" mnemonicParsing="false" onMouseClicked="#parkBtn" prefHeight="50.0" prefWidth="135.0" style="-fx-background-color: #7509cd;" text="공원" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button fx:id="home" layoutX="132.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#homeBtn" prefHeight="50.0" prefWidth="135.0" style="-fx-background-color: #7509cd;" text="집" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+   </children>
+</AnchorPane>
